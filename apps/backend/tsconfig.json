@@ -1,0 +1,17 @@
+{
+  "extends": "tsconfig/node18.json",
+  "include": ["src"],
+  "exclude": [
+    "**/__tests__",
+    "**/__fixtures__",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "rootDir": "src",
+    "baseUrl": "src",
+    "noEmit": false,
+    "outDir": "dist"
+  }
+}
